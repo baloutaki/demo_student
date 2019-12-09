@@ -1,0 +1,6 @@
+package be.ehb.demo_student.model;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface StudentDAO extends CrudRepository<Student, Integer> {
+}
